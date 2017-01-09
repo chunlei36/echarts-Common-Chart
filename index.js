@@ -1,2 +1,8 @@
-var chaart = echarts.init(document.getElementById('main'));
-console.log(chaart);
+var chart = echarts.init(document.getElementById('main'));
+console.log(chart);
+
+var option={
+  
+};
+
+chart.setOption(option);
